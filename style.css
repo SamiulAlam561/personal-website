@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto",sans-serif;
+  box-sizing: border-box;
+}
+section {
+  height: 1000px;
+}
+.header {
+  background-image: url("images/header-bg.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.half-width{
+  width: 40%;
+  float: left;
+  margin: 5% 0 5% 5%;
+  padding: 2%;
+}
+.half-width.name{
+  margin-left: 12%;
+  margin-top: 14%;
+}
+.half-width.image{
+  margin-left: 0;
+}
+.half-width img{
+  width: 100%;
+}
+
+h2{
+  font-weight: 500;
+  font-size: 42px;
+}
+h1{
+  font-size: 55px;
+  letter-spacing: 3px;
+  color: #f04e7c;
+}
+.half-width p{
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 40px;
+  color: dimgray;
+  margin-bottom: 50px;
+}
+
+.half-width .link-btn {
+  text-decoration: none;
+  background-image: linear-gradient(90deg, #f7598b, #e1275c);
+  color: white;
+  padding: 14px 50px;
+  border-radius: 5px;
+}
+
+.half-width.bio h1{
+  font-size: 50px;
+  font-weight: 400;
+  color: black;
+  letter-spacing: 0;
+}
+.half-width.bio p{
+  margin: 5% 0 10% 0;
+}
+.half-width.bio{
+  padding-top: 10%;
+}
+.bio {
+  background-image: url("images/biography-bg.png");
+  background-size: cover;
+  background-position: top;
+}
+.latest-work{
+  background-image: url("images/latest-work-bg.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.latest-work h1{
+  letter-spacing: 0;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  font-size: 48px;
+  margin: 6% 0;
+}
+
+.latest-work .work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.work img {
+  width: 25%;
+}
+
+.clients h1 {
+  text-align: center;
+  letter-spacing: 0;
+  color: black;
+  font-weight: 500;
+  font-size: 48px;
+  margin-top: 8%;
+}
+.clients h3 {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 20px;
+  font-weight: 500;
+}
+.clients .attr {
+  text-align: center;
+  margin: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  color: dimgray;
+  font-family: "poppins";
+  margin-bottom: 30px;
+}
+.clients .speech{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  color: rgb(52, 51, 51);
+  line-height: 28px;
+}
+.clients .msg {
+  text-decoration: none;
+  
+}

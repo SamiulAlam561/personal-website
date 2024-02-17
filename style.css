@@ -110,6 +110,9 @@ h1{
   flex-direction: column;
   align-items: center;
   height: 900px;
+  background-image: url("images/footer-bg.png");
+  background-position: top;
+  background-size: cover;
 }
 .clients h1 {
   text-align: center;
